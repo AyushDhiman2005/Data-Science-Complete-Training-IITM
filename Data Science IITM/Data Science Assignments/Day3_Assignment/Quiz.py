@@ -82,11 +82,11 @@ def setQuestions():
     add_Question("Who was the first Prime Minister of India?", "Jawaharlal Nehru")
     add_Question("Who is the current Home Minister of India?", "Amit Shah")
     add_Question("Who was the first woman Prime Minister of India?", "Indira Gandhi")
-    # add_Question("Who is the current Chief Minister of Delhi?", "Arvind Kejriwal")
-    # add_Question("Who is the current Defence Minister of India?", "Rajnath Singh")
-    # add_Question("Who is the Governor of the Reserve Bank of India?", "Shaktikanta Das")
-    # add_Question("Who is the current External Affairs Minister of India?", "S. Jaishankar")
-    # add_Question("Who was the architect of the Indian Constitution?", "B. R. Ambedkar")
+    add_Question("Who is the current Chief Minister of Delhi?", "Arvind Kejriwal")
+    add_Question("Who is the current Defence Minister of India?", "Rajnath Singh")
+    add_Question("Who is the Governor of the Reserve Bank of India?", "Shaktikanta Das")
+    add_Question("Who is the current External Affairs Minister of India?", "S. Jaishankar")
+    add_Question("Who was the architect of the Indian Constitution?", "B. R. Ambedkar")
 
 def startQuiz():
     name=input("Enter your name:")
@@ -131,5 +131,6 @@ def main():
     setQuestions()
     startQuiz()
     endQuiz()
+
 
 main()
